@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T11:37:16.856Z" agent="5.0 (Windows)" etag="kFJDMDzaDQX-YHMJ8cWZ" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T11:56:21.343Z" agent="5.0 (Windows)" etag="yO4wIgT_2DEnzq4DcQD6" version="14.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -21,7 +21,7 @@
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-26" source="yOSvcxgq4yjiT3QOHLfB-2" target="yOSvcxgq4yjiT3QOHLfB-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-5" value="提示用户邮箱或密码错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-5" value="提示用户错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
           <mxGeometry y="250" width="124.13793103448276" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-26" source="yOSvcxgq4yjiT3QOHLfB-3" target="yOSvcxgq4yjiT3QOHLfB-5">
@@ -38,7 +38,7 @@
             <mxPoint x="62.06896551724138" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-13" value="&lt;div&gt;调用SSO的&lt;/div&gt;&lt;div&gt;登录接口,是否成功&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-13" value="&lt;div&gt;调用SSO的&lt;/div&gt;&lt;div&gt;登录接口(已有接口,需沟通),是否成功&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
           <mxGeometry x="196.55172413793105" y="110" width="124.13793103448276" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-15" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
@@ -73,7 +73,7 @@
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-27" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="&lt;div&gt;邮箱是否&lt;/div&gt;&lt;div&gt;在SSO注册&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="yOSvcxgq4yjiT3QOHLfB-27" vertex="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="&lt;div&gt;邮箱是否&lt;/div&gt;&lt;div&gt;在SSO注册(未有接口)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="yOSvcxgq4yjiT3QOHLfB-27" vertex="1">
           <mxGeometry x="230" y="175" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="提示用户邮箱已被注册" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="yOSvcxgq4yjiT3QOHLfB-27" vertex="1">
@@ -97,7 +97,7 @@
         <mxCell id="SDEDhps1Sc0b50msGvVq-49" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="yOSvcxgq4yjiT3QOHLfB-27" vertex="1">
           <mxGeometry x="230" y="275" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="SDEDhps1Sc0b50msGvVq-50" value="本地创建用户账号,推送账号至SSO,返回ssoid等信息" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="yOSvcxgq4yjiT3QOHLfB-27" vertex="1">
+        <mxCell id="SDEDhps1Sc0b50msGvVq-50" value="本地创建用户账号,推送账号至SSO(已有接口),返回ssoid等信息" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="yOSvcxgq4yjiT3QOHLfB-27" vertex="1">
           <mxGeometry x="440" y="185" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SDEDhps1Sc0b50msGvVq-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="yOSvcxgq4yjiT3QOHLfB-27" source="WIyWlLk6GJQsqaUBKTNV-10" target="SDEDhps1Sc0b50msGvVq-50" edge="1">
@@ -164,7 +164,7 @@
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-30" source="yOSvcxgq4yjiT3QOHLfB-31" target="yOSvcxgq4yjiT3QOHLfB-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-35" value="提示用户非法操作,或提示登出失败" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-30">
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-35" value="提示用户错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-30">
           <mxGeometry y="250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-30" source="yOSvcxgq4yjiT3QOHLfB-33" target="yOSvcxgq4yjiT3QOHLfB-35">
@@ -181,7 +181,7 @@
             <mxPoint x="60" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-40" value="调用SSO登出接口" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-30">
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-40" value="调用SSO登出接口(已有接口)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-30">
           <mxGeometry x="190" y="110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-41" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-30">
@@ -195,6 +195,132 @@
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-44" value="登录流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-30">
           <mxGeometry x="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-46" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="1168" width="464" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-47" value="用户在kd100修改密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-46">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-46" source="yOSvcxgq4yjiT3QOHLfB-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-49" value="&lt;div&gt;检查用户合法性和&lt;/div&gt;&lt;div&gt;账号密码是否正确&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-46">
+          <mxGeometry y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-46" source="yOSvcxgq4yjiT3QOHLfB-47" target="yOSvcxgq4yjiT3QOHLfB-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-51" value="提示用户错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-46">
+          <mxGeometry y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-46" source="yOSvcxgq4yjiT3QOHLfB-49" target="yOSvcxgq4yjiT3QOHLfB-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-53" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-46">
+          <mxGeometry x="10" y="200" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-54" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-46">
+          <mxGeometry x="130" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-46" source="yOSvcxgq4yjiT3QOHLfB-56" target="yOSvcxgq4yjiT3QOHLfB-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-56" value="&lt;div&gt;更新本地信息,&lt;/div&gt;&lt;div&gt;推送SSO的密码更新信息(已有接口)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-46">
+          <mxGeometry x="190" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-57" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-46">
+          <mxGeometry x="130" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-58" value="返回更新成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-46">
+          <mxGeometry x="364" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-46" source="yOSvcxgq4yjiT3QOHLfB-56" target="yOSvcxgq4yjiT3QOHLfB-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-60" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-46">
+          <mxGeometry x="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-76" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1120" as="sourcePoint" />
+            <mxPoint x="750" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-77" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="1490" as="sourcePoint" />
+            <mxPoint x="750" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-78" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="1530" width="320" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-62" value="用户在agogo修改密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
+          <mxGeometry width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-78" source="yOSvcxgq4yjiT3QOHLfB-64">
+          <mxGeometry as="geometry">
+            <mxPoint x="190" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-64" value="&lt;div&gt;用户是否来自kd100&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
+          <mxGeometry y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-78" source="yOSvcxgq4yjiT3QOHLfB-62" target="yOSvcxgq4yjiT3QOHLfB-64">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-66" value="agogo内部处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
+          <mxGeometry y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-78" source="yOSvcxgq4yjiT3QOHLfB-64" target="yOSvcxgq4yjiT3QOHLfB-66">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-68" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
+          <mxGeometry x="10" y="200" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-69" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
+          <mxGeometry x="130" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-73" value="推送信息给kd100(kd100提供接收接口)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
+          <mxGeometry x="190" y="130" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-75" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
+          <mxGeometry x="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-80" value="在agogo注册的用户,已在agogo登录,kd100本地无该用户的数据,访问" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="1870" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-82" value="&lt;div&gt;用户是否来自kd100&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="2025.8662068965516" width="120" height="85.51724137931033" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-80" target="yOSvcxgq4yjiT3QOHLfB-82">
+          <mxGeometry x="20" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-84" value="agogo内部处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="25" y="2150.001379310345" width="120" height="42.75862068965517" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-84">
+          <mxGeometry x="20" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-86" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="2111.383103448276" width="40" height="21.379310344827584" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-87" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="2020.19" width="60" height="21.72" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-88" value="推送信息给kd100(kd100提供接收接口)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="2041.9055172413791" width="130" height="53.44827586206896" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-89" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="1890" width="120" height="85.51724137931033" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

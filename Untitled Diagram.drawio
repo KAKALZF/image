@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T00:52:59.689Z" agent="5.0 (Windows)" etag="6wj8WLV_F0UesDvHAI20" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-14T01:20:37.927Z" agent="5.0 (Windows)" etag="whNpp5BnCBQ6K7e799dL" version="14.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3076" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -260,7 +260,7 @@
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-78" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="1530" width="320" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-62" value="用户在agogo修改密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-62" value="用户在agogo修改密码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
           <mxGeometry width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-78" source="yOSvcxgq4yjiT3QOHLfB-64">
@@ -292,7 +292,7 @@
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-75" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
           <mxGeometry x="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-80" value="在agogo注册的用户,已在agogo登录,kd100本地无该用户的数据,访问kd100" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-80" value="在agogo注册的用户,已在agogo登录,kd100本地无该用户的数据,访问kd100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="1870" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-88">
@@ -322,8 +322,8 @@
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-89" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="1890" width="120" height="85.51724137931033" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-92" value="本地没有,但是SSO有" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="635" y="1940" width="275" height="100" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-92" value="&lt;div align=&quot;left&quot;&gt;原有方式:SSO登录,设置cookie,有过期时间;后端校验有没cookie,能否正常解析得出用户信息来验证用户的登录状态&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;现有方式:域名不同,原有方式行不通.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;方案一:agogo和kd100需要各自登录,自行验证.&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;本地没有,但是SSO有&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;统一的加密方式&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="1520" width="335" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

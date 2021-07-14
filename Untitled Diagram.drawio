@@ -1,61 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T01:20:37.927Z" agent="5.0 (Windows)" etag="whNpp5BnCBQ6K7e799dL" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-14T03:03:06.307Z" agent="5.0 (Windows)" etag="I_-ist1kV5Vsp0zFlUjX" version="14.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3076" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-26" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="460" width="650" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-2" value="用户在kd100登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
-          <mxGeometry width="124.13793103448276" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-26" source="yOSvcxgq4yjiT3QOHLfB-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="196.55172413793105" y="150" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-3" value="&lt;div&gt;kd100本地校验&lt;/div&gt;&lt;div&gt;邮箱密码真实性&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
-          <mxGeometry y="110" width="124.13793103448276" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-26" source="yOSvcxgq4yjiT3QOHLfB-2" target="yOSvcxgq4yjiT3QOHLfB-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-5" value="提示用户错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
-          <mxGeometry y="250" width="124.13793103448276" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-26" source="yOSvcxgq4yjiT3QOHLfB-3" target="yOSvcxgq4yjiT3QOHLfB-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-11" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
-          <mxGeometry x="10.344827586206897" y="200" width="41.37931034482759" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-12" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
-          <mxGeometry x="134.48275862068965" y="120" width="41.37931034482759" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-26" source="yOSvcxgq4yjiT3QOHLfB-13" target="yOSvcxgq4yjiT3QOHLfB-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="62.06896551724138" y="240" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-13" value="&lt;div&gt;调用SSO的&lt;/div&gt;&lt;div&gt;登录接口(已有接口,需沟通),是否成功&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
-          <mxGeometry x="196.55172413793105" y="110" width="124.13793103448276" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-15" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
-          <mxGeometry x="134.48275862068965" y="230" width="41.37931034482759" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-17" value="&lt;div align=&quot;center&quot;&gt;设置用户的token信息到cookie,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;www.agogo.com&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;www.kd100.com&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
-          <mxGeometry x="376.551724137931" y="115" width="223.44827586206898" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-26" source="yOSvcxgq4yjiT3QOHLfB-13" target="yOSvcxgq4yjiT3QOHLfB-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-25" value="登录流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
-          <mxGeometry x="165.51724137931035" width="124.13793103448276" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-45" value="&lt;div&gt;请求头部token还是cookie?kd100.com不能&lt;/div&gt;&lt;div&gt;给agogo.com设置cookie,agogo的cookie也&lt;/div&gt;&lt;div&gt;带不到kd100.com,原本都是&lt;/div&gt;&lt;div&gt;同一个二级域名,cookie没问题&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-26">
-          <mxGeometry x="290" y="-20" width="360" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-27" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="30" width="770" height="375" as="geometry" />
         </mxCell>
@@ -143,12 +91,12 @@
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="770" as="sourcePoint" />
-            <mxPoint x="770" y="770" as="targetPoint" />
+            <mxPoint y="960" as="sourcePoint" />
+            <mxPoint x="750" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-30" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="800" width="464" height="290" as="geometry" />
+          <mxGeometry x="40" y="990" width="464" height="290" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-31" value="用户在kd100登出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-30">
           <mxGeometry width="120" height="40" as="geometry" />
@@ -197,7 +145,7 @@
           <mxGeometry x="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-46" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="1168" width="464" height="290" as="geometry" />
+          <mxGeometry x="30" y="1340" width="464" height="290" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-47" value="用户在kd100修改密码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-46">
           <mxGeometry width="120" height="40" as="geometry" />
@@ -247,8 +195,8 @@
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-76" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint y="1120" as="sourcePoint" />
-            <mxPoint x="750" y="1120" as="targetPoint" />
+            <mxPoint y="1300" as="sourcePoint" />
+            <mxPoint x="750" y="1300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-77" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -258,7 +206,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-78" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="1530" width="320" height="290" as="geometry" />
+          <mxGeometry x="80" y="1760" width="320" height="290" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-62" value="用户在agogo修改密码" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
           <mxGeometry width="120" height="40" as="geometry" />
@@ -292,38 +240,96 @@
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-75" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
           <mxGeometry x="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-80" value="在agogo注册的用户,已在agogo登录,kd100本地无该用户的数据,访问kd100" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="1870" width="140" height="70" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-92" value="&lt;div align=&quot;left&quot;&gt;原有方式:SSO登录,设置cookie,有过期时间;后端校验有没cookie,能否正常解析得出用户信息来验证用户的登录状态&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;现有方式:域名不同,原有方式行不通.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;方案一:agogo和kd100需要各自登录,自行验证.&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;本地没有,但是SSO有&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;统一的加密方式&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;同一个邮箱,在agogo注册了,又在kd100注册&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="1780" width="335" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-88">
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-95" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="2110" width="390" height="452.7600000000002" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-80" value="kd检测到用户未登录,返回kd100登录页面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
+          <mxGeometry y="120" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-82" value="操作是否需要校验用户信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
+          <mxGeometry x="10" y="275.8662068965514" width="120" height="85.51724137931033" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-95" source="yOSvcxgq4yjiT3QOHLfB-80" target="yOSvcxgq4yjiT3QOHLfB-82">
+          <mxGeometry y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-84" value="agogo内部处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
+          <mxGeometry x="10" y="410.0013793103449" width="120" height="42.75862068965517" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-95" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-84">
+          <mxGeometry y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-86" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
+          <mxGeometry x="10" y="361.38310344827596" width="40" height="21.379310344827584" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-87" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
+          <mxGeometry x="160" y="270.19000000000005" width="60" height="21.72" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-88" value="推送信息给kd100(kd100提供接收接口)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
+          <mxGeometry x="260" y="291.90551724137913" width="130" height="53.44827586206896" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-95" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-82" value="操作是否需要校验用户信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="2025.8662068965516" width="120" height="85.51724137931033" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-89" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
+          <mxGeometry x="200" y="140" width="120" height="85.51724137931033" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-80" target="yOSvcxgq4yjiT3QOHLfB-82">
-          <mxGeometry x="20" y="1870" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-95" source="yOSvcxgq4yjiT3QOHLfB-93" target="yOSvcxgq4yjiT3QOHLfB-80">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-84" value="agogo内部处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="2160.001379310345" width="120" height="42.75862068965517" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-93" value="在agogo注册的用户,已在agogo登录,kd100本地无该用户的数据,访问kd100的敏感操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
+          <mxGeometry width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-84">
-          <mxGeometry x="20" y="1870" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-98" value="&lt;div&gt;通过SSO实现agogo和kd100的用户信息同步&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;问题点:&lt;/div&gt;&lt;div&gt;用户在agogo注册,agogo有该用户邮箱,但是kd100没有的问题&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="500" width="320" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-86" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="30" y="2111.383103448276" width="40" height="21.379310344827584" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-2" value="用户在kd100登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="450" width="124.13793103448276" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-87" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="2020.19" width="60" height="21.72" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-3">
+          <mxGeometry x="40" y="450" as="geometry">
+            <mxPoint x="236.55172413793105" y="600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-88" value="推送信息给kd100(kd100提供接收接口)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="280" y="2041.9055172413791" width="130" height="53.44827586206896" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-3" value="&lt;div&gt;kd100本地校验&lt;/div&gt;&lt;div&gt;邮箱密码真实性&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="560" width="124.13793103448276" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-89" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="220" y="1890" width="120" height="85.51724137931033" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-2" target="yOSvcxgq4yjiT3QOHLfB-3">
+          <mxGeometry x="40" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-92" value="&lt;div align=&quot;left&quot;&gt;原有方式:SSO登录,设置cookie,有过期时间;后端校验有没cookie,能否正常解析得出用户信息来验证用户的登录状态&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;现有方式:域名不同,原有方式行不通.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;方案一:agogo和kd100需要各自登录,自行验证.&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;本地没有,但是SSO有&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;统一的加密方式&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="1520" width="335" height="250" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-5" value="提示用户错误" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="29.999999999999993" y="830" width="177.93" height="52.07" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-3">
+          <mxGeometry x="40" y="450" as="geometry">
+            <mxPoint x="102" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-11" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50.3448275862069" y="650" width="41.37931034482759" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-12" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="174.48275862068965" y="570" width="41.37931034482759" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-13" value="&lt;div&gt;调用SSO的&lt;/div&gt;&lt;div&gt;登录接口(已有接口,需沟通),是否成功&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="236.55172413793105" y="560" width="124.13793103448276" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-17" value="&lt;div align=&quot;center&quot;&gt;设置用户的token信息到cookie,&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;www.agogo.com&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;www.kd100.com&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="416.551724137931" y="565" width="223.44827586206898" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-13" target="yOSvcxgq4yjiT3QOHLfB-17">
+          <mxGeometry x="40" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-25" value="登录流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="205.51724137931035" y="450" width="124.13793103448276" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-45" value="&lt;div&gt;请求头部token还是cookie?kd100.com不能&lt;/div&gt;&lt;div&gt;给agogo.com设置cookie,agogo的cookie也&lt;/div&gt;&lt;div&gt;带不到kd100.com,原本都是&lt;/div&gt;&lt;div&gt;同一个二级域名,cookie没问题&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="440" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-103" value="SSO校验用户" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="28.07" y="730" width="148" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T04:37:23.116Z" agent="5.0 (Windows)" etag="3PmhFLBVV1nvMflwXu7c" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-14T05:52:26.842Z" agent="5.0 (Windows)" etag="RurqSS4MBMl8o3Zozp3_" version="14.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3076" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -240,47 +240,8 @@
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-75" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
           <mxGeometry x="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-92" value="&lt;div align=&quot;left&quot;&gt;原有方式:SSO登录,设置cookie,有过期时间;后端校验有没cookie,能否正常解析得出用户信息来验证用户的登录状态&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;现有方式:域名不同,原有方式行不通.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;方案一:agogo和kd100需要各自登录,自行验证.&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;本地没有,但是SSO有&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;统一的加密方式&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;同一个邮箱,在agogo注册了,又在kd100注册&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="1780" width="335" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-95" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="91.72" y="2150" width="390" height="452.7600000000002" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-80" value="kd检测到用户未登录,返回kd100登录页面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
-          <mxGeometry y="120" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-82" value="重定向到sso,看用户是否已登录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
-          <mxGeometry x="10" y="275.8662068965514" width="120" height="85.51724137931033" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-95" source="yOSvcxgq4yjiT3QOHLfB-80" target="yOSvcxgq4yjiT3QOHLfB-82">
-          <mxGeometry y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-84" value="agogo内部处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
-          <mxGeometry x="10" y="410.0013793103449" width="120" height="42.75862068965517" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-95" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-84">
-          <mxGeometry y="120" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-86" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
-          <mxGeometry x="10" y="361.38310344827596" width="40" height="21.379310344827584" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-87" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
-          <mxGeometry x="160" y="270.19000000000005" width="60" height="21.72" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-88" value="推送信息给kd100(kd100提供接收接口)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
-          <mxGeometry x="260" y="291.90551724137913" width="130" height="53.44827586206896" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-95" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-88">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-89" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
-          <mxGeometry x="200" y="140" width="120" height="85.51724137931033" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yOSvcxgq4yjiT3QOHLfB-95" source="yOSvcxgq4yjiT3QOHLfB-93" target="yOSvcxgq4yjiT3QOHLfB-80">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-93" value="在agogo注册的用户,已在agogo登录,kd100本地无该用户的数据,访问kd100的敏感操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-95">
-          <mxGeometry width="140" height="70" as="geometry" />
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-92" value="&lt;div align=&quot;left&quot;&gt;原有方式:SSO登录,设置cookie,有过期时间;后端校验有没cookie,能否正常解析得出用户信息来验证用户的登录状态&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;现有方式:域名不同,原有同域名单点登录方式行不通.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;方案一:agogo和kd100需要各自登录,自行验证.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;方案二:跨域名的单点登录方式&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;本地没有该用户信息,但是SSO有;什么时候拉取该用户信息到本地?&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;统一的加密方式&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;同一个邮箱,在agogo注册了,又在kd100注册&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="1780" width="335" height="360" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-98" value="&lt;div&gt;通过SSO实现agogo和kd100的用户信息同步&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;问题点:&lt;/div&gt;&lt;div&gt;用户在agogo注册,agogo有该用户邮箱,但是kd100没有的问题&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750" y="500" width="320" height="190" as="geometry" />
@@ -330,6 +291,39 @@
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-103" value="SSO校验用户" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="28.07" y="730" width="148" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-80" value="kd100检测到用户未登录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="91.72" y="2270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-82" value="重定向到sso,看用户是否已登录" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="101.72" y="2425.8662068965514" width="120" height="85.51724137931033" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-80" target="yOSvcxgq4yjiT3QOHLfB-82">
+          <mxGeometry x="91.72" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-84" value="agogo内部处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="101.72" y="2560.001379310345" width="120" height="42.75862068965517" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-84">
+          <mxGeometry x="91.72" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-86" value="N" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="101.72" y="2511.383103448276" width="40" height="21.379310344827584" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-87" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="251.72" y="2420.19" width="60" height="21.72" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-88" value="sso返回token给" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="351.72" y="2441.905517241379" width="130" height="53.44827586206896" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-88">
+          <mxGeometry x="91.72" y="2150" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-93" target="yOSvcxgq4yjiT3QOHLfB-80">
+          <mxGeometry x="91.72" y="2150" as="geometry" />
+        </mxCell>
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-93" value="在agogo注册的用户,已在agogo登录,kd100本地无该用户的数据,访问kd100的敏感操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="91.72" y="2150" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

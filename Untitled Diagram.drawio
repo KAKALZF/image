@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T05:52:26.842Z" agent="5.0 (Windows)" etag="RurqSS4MBMl8o3Zozp3_" version="14.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-15T01:13:24.685Z" agent="5.0 (Windows)" etag="sbUIOZOXOopRoH0izTuA" version="14.8.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3076" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -240,7 +240,7 @@
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-75" value="修改密码流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yOSvcxgq4yjiT3QOHLfB-78">
           <mxGeometry x="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-92" value="&lt;div align=&quot;left&quot;&gt;原有方式:SSO登录,设置cookie,有过期时间;后端校验有没cookie,能否正常解析得出用户信息来验证用户的登录状态&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;现有方式:域名不同,原有同域名单点登录方式行不通.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;方案一:agogo和kd100需要各自登录,自行验证.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;方案二:跨域名的单点登录方式&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;本地没有该用户信息,但是SSO有;什么时候拉取该用户信息到本地?&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;统一的加密方式&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;同一个邮箱,在agogo注册了,又在kd100注册&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-92" value="&lt;div align=&quot;left&quot;&gt;原有方式:SSO登录,设置cookie,有过期时间;后端校验有没cookie,能否正常解析得出用户信息来验证用户的登录状态&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;现有方式:域名不同,原有同域名单点登录方式行不通.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;方案一:agogo和kd100需要各自登录,自行验证.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;方案二:跨域名的单点登录方式&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;本地没有该用户信息,但是SSO有;什么时候拉取该用户信息到本地?&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;用户密码的问题:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;agogo和kd100和sso交互,同步信息,流程繁琐.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;kd100推送sso简单,sso通知kd100复杂,&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;需要判断来源是够是来自于kd100,如果kd100主动拉取过sso的用户信息,后面同步又要增加校验逻辑&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;建议:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;kd100不保存&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;统一的加密方式&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;同一个邮箱,在agogo注册了,又在kd100注册&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="580" y="1780" width="335" height="360" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-98" value="&lt;div&gt;通过SSO实现agogo和kd100的用户信息同步&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;问题点:&lt;/div&gt;&lt;div&gt;用户在agogo注册,agogo有该用户邮箱,但是kd100没有的问题&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -311,9 +311,9 @@
           <mxGeometry x="101.72" y="2511.383103448276" width="40" height="21.379310344827584" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-87" value="Y" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="251.72" y="2420.19" width="60" height="21.72" as="geometry" />
+          <mxGeometry x="251.72" y="2430" width="60" height="21.72" as="geometry" />
         </mxCell>
-        <mxCell id="yOSvcxgq4yjiT3QOHLfB-88" value="sso返回token给" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="yOSvcxgq4yjiT3QOHLfB-88" value="sso返回token给kd100.com,kd100设置cookie等信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="351.72" y="2441.905517241379" width="130" height="53.44827586206896" as="geometry" />
         </mxCell>
         <mxCell id="yOSvcxgq4yjiT3QOHLfB-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="yOSvcxgq4yjiT3QOHLfB-82" target="yOSvcxgq4yjiT3QOHLfB-88">
